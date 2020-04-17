@@ -1,0 +1,96 @@
+
+@import "semantic-ui";
+
+*{
+  padding: 0;
+  margin: 0;
+
+}
+
+body {
+        height: 100vh;
+        width: 100vw;
+        background-image: linear-gradient(110.51128872861148deg, rgba(146, 195, 93,0.7) 4.934027777777778%,rgba(234, 220, 34,0.7) 63.40624999999999%),url('https://www.redsharknews.com/media/k2/items/src/56fdb842f2458bf675da9c35c277e43a.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+
+h1{
+      font-size: 3rem;
+      margin-top: 1.3rem;
+      font-family:  Courier;
+      color: #FFFFFF;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.test_questions{
+  font-size: 2rem;
+  font-family:  Courier;
+  color: #FFFFFF;
+}
+
+#yes{
+  background-color: green;
+  display: block;
+  padding: 5px;
+  font-size: 1.4rem;
+  color: white;
+  cursor: pointer;
+  padding-left: 50%;
+  margin-bottom: 1rem;
+  margin-top: 1.2rem;
+}
+
+#no{
+  background-color: red;
+  display: block;
+  padding: 5px;
+  font-size: 1.4rem;
+  color: white;
+  cursor: pointer;
+  padding-left: 50%;
+}
+
+
+.test_questions {
+  display: none;
+}
+
+.test_answers{
+  display: none;
+}
+
+.start{
+  background-color: red;
+  // display: block;
+  padding: 20px;
+  font-size: 1.4rem;
+  color: white;
+  cursor: pointer;
+  font-family:  Courier;
+  // padding-left: 50%;
+  // width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.progress {
+      margin-top: 1.2rem;
+}
+
+
+.sizing{
+  font-size: 2rem;
+}
